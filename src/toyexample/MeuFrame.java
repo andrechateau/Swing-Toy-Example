@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package toyexample;
 
 import java.awt.event.ActionEvent;
@@ -22,7 +18,7 @@ import javax.swing.JTextField;
 public class MeuFrame extends JFrame {
 
 	public MeuFrame() {
-		super("Frame Java Group"); // Título do Frame
+		super("Frame Java Group"); // TÃ­tulo do Frame
 		setSize(300, 200); // Tamanho do Meu Frame
 		setLayout(null); // Nao usaremos layout manager nesse exemplo
 
@@ -32,7 +28,7 @@ public class MeuFrame extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// Janela inizializa no meio da tela (relativa a nada)
 		setLocationRelativeTo(null);
-		// Montar a janela de fato (fazendo-a vizivel)
+		// Montar a janela de fato (fazendo-a visivel)
 		setVisible(true);
 	}
 
@@ -43,7 +39,7 @@ public class MeuFrame extends JFrame {
 
 	private void initComponents() {
 		// Rotulo do 'Texto'
-		JLabel lbTexto = new JLabel("Faça seu Login");
+		JLabel lbTexto = new JLabel("FaÃ§a seu Login");
 		lbTexto.setBounds(100, 10, 100, 25);
 		add(lbTexto);
 
